@@ -1,0 +1,22 @@
+table{
+    border-collapse: collapse ;
+    background-color: brown;
+    margin:10px 50px;
+    width:50%;
+    text-align: center;
+}
+
+td{
+    border: solid black 2px;
+    background-color: yellowgreen;
+}
+
+body{
+    margin-top:10px;
+    text-align: center;
+}
+
+button{
+    width: 100px;
+    border-radius: 20px;
+}

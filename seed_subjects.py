@@ -563,15 +563,7 @@ subjects = [
     "credits": 3,
     "category": "PE"
 },
-{
-    "department": "CSE",
-    "regulation": 2021,
-    "semester": 0,
-    "subject_code": "CCS336",
-    "subject_name": "Cloud Services Management",
-    "credits": 3,
-    "category": "PE"
-},
+
 {
     "department": "CSE",
     "regulation": 2021,
@@ -764,15 +756,7 @@ subjects = [
     "credits": 3,
     "category": "PE"
 },
-{
-    "department": "CSE",
-    "regulation": 2021,
-    "semester": 0,
-    "subject_code": "CCS362",
-    "subject_name": "Security and Privacy in Cloud",
-    "credits": 3,
-    "category": "PE"
-},
+
 
 # ==============================
 # 2021 Regulation CSE Professional Electives - Batch 5
@@ -985,6 +969,60 @@ subjects = [
     "semester": 0,
     "subject_code": "MX3084",
     "subject_name": "Disaster Risk Reduction and Management",
+    "credits": 0,
+    "category": "MC"
+},
+
+# ==============================
+# 2021 Regulation CSE Mandatory Courses - II
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "MX3085",
+    "subject_name": "Well Being with Traditional Practices - Yoga, Ayurveda and Siddha",
+    "credits": 0,
+    "category": "MC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "MX3086",
+    "subject_name": "History of Science and Technology in India",
+    "credits": 0,
+    "category": "MC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "MX3087",
+    "subject_name": "Political and Economic Thought for a Humane Society",
+    "credits": 0,
+    "category": "MC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "MX3088",
+    "subject_name": "State, Nation Building and Politics in India",
+    "credits": 0,
+    "category": "MC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "MX3089",
+    "subject_name": "Industrial Safety",
     "credits": 0,
     "category": "MC"
 },
@@ -1225,7 +1263,1522 @@ subjects = [
     "subject_name": "Industrial Safety",
     "credits": 0,
     "category": "MC"
-}
+},
+
+
+# ==============================
+# 2021 Regulation CSE Elective - Management Courses
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "GE3751",
+    "subject_name": "Principles of Management",
+    "credits": 3,
+    "category": "HSMC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "GE3752",
+    "subject_name": "Total Quality Management",
+    "credits": 3,
+    "category": "HSMC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "GE3753",
+    "subject_name": "Engineering Economics and Financial Accounting",
+    "credits": 3,
+    "category": "HSMC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "GE3754",
+    "subject_name": "Human Resource Management",
+    "credits": 3,
+    "category": "HSMC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "GE3755",
+    "subject_name": "Knowledge Management",
+    "credits": 3,
+    "category": "HSMC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "GE3792",
+    "subject_name": "Industrial Management",
+    "credits": 3,
+    "category": "HSMC"
+},
+
+# ==============================
+# 2021 Regulation CSE Open Electives - II
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OIE352",
+    "subject_name": "Resource Management Techniques",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMG351",
+    "subject_name": "Fintech Regulation",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OFD351",
+    "subject_name": "Holistic Nutrition",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "AI3021",
+    "subject_name": "IT in Agricultural System",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEI352",
+    "subject_name": "Introduction to Control Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPY351",
+    "subject_name": "Pharmaceutical Nanotechnology",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OAE351",
+    "subject_name": "Aviation Management",
+    "credits": 3,
+    "category": "OEC"
+},
+
+
+# ==============================
+# 2021 Regulation CSE Open Electives - I
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OAS351",
+    "subject_name": "Space Science",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OIE351",
+    "subject_name": "Introduction to Industrial Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OBT351",
+    "subject_name": "Food, Nutrition and Health",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OCE351",
+    "subject_name": "Environment and Social Impact Assessment",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEE351",
+    "subject_name": "Renewable Energy System",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEI351",
+    "subject_name": "Introduction to Industrial Instrumentation and Control",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMA351",
+    "subject_name": "Graph Theory",
+    "credits": 3,
+    "category": "OEC"
+},
+
+
+# ==============================
+# 2021 Regulation CSE Open Electives - III
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OHS351",
+    "subject_name": "English for Competitive Examinations",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMG352",
+    "subject_name": "NGOs and Sustainable Development",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMG353",
+    "subject_name": "Democracy and Good Governance",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CME365",
+    "subject_name": "Renewable Energy Technologies",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OME354",
+    "subject_name": "Applied Design Thinking",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "MF3003",
+    "subject_name": "Reverse Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPR351",
+    "subject_name": "Sustainable Manufacturing",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "AU3791",
+    "subject_name": "Electric and Hybrid Vehicles",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OAS352",
+    "subject_name": "Space Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OIM351",
+    "subject_name": "Industrial Management",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OIE354",
+    "subject_name": "Quality Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OSF351",
+    "subject_name": "Fire Safety Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OML351",
+    "subject_name": "Introduction to Non-destructive Testing",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMR351",
+    "subject_name": "Mechatronics",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "ORA351",
+    "subject_name": "Foundation of Robotics",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OAE352",
+    "subject_name": "Fundamentals of Aeronautical Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OGI351",
+    "subject_name": "Remote Sensing Concepts",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OAI351",
+    "subject_name": "Urban Agriculture",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEN351",
+    "subject_name": "Drinking Water Supply and Treatment",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEE352",
+    "subject_name": "Electric Vehicle Technology",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEI353",
+    "subject_name": "Introduction to PLC Programming",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OCH351",
+    "subject_name": "Nano Technology",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OCH352",
+    "subject_name": "Functional Materials",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OFD352",
+    "subject_name": "Traditional Indian Foods",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OFD353",
+    "subject_name": "Introduction to Food Processing",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPY352",
+    "subject_name": "IPR for Pharma Industry",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OTT351",
+    "subject_name": "Basics of Textile Finishing",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OTT352",
+    "subject_name": "Industrial Engineering for Garment Industry",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OTT353",
+    "subject_name": "Basics of Textile Manufacture",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPE351",
+    "subject_name": "Introduction to Petroleum Refining and Petrochemicals",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CPE334",
+    "subject_name": "Energy Conservation and Management",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPT351",
+    "subject_name": "Basics of Plastics Processing",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEC351",
+    "subject_name": "Signals and Systems",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEC352",
+    "subject_name": "Fundamentals of Electronic Devices and Circuits",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CBM348",
+    "subject_name": "Foundation Skills in Integrated Product Development",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CBM333",
+    "subject_name": "Assistive Technology",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMA352",
+    "subject_name": "Operations Research",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMA353",
+    "subject_name": "Algebra and Number Theory",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMA354",
+    "subject_name": "Linear Algebra",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OCE353",
+    "subject_name": "Lean Concepts, Tools and Practices",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OBT352",
+    "subject_name": "Basics of Microbial Technology",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OBT353",
+    "subject_name": "Basics of Biomolecules",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OBT354",
+    "subject_name": "Fundamentals of Cell and Molecular Biology",
+    "credits": 3,
+    "category": "OEC"
+},
+
+# ==============================
+# 2021 Regulation CSE Open Electives - IV
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OHS352",
+    "subject_name": "Project Report Writing",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMA355",
+    "subject_name": "Advanced Numerical Methods",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMA356",
+    "subject_name": "Random Processes",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMA357",
+    "subject_name": "Queuing and Reliability Modelling",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMG354",
+    "subject_name": "Production and Operations Management for Entrepreneurs",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMG355",
+    "subject_name": "Multivariate Data Analysis",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OME352",
+    "subject_name": "Additive Manufacturing",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CME343",
+    "subject_name": "New Product Development",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OME355",
+    "subject_name": "Industrial Design & Rapid Prototyping Techniques",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "MF3010",
+    "subject_name": "Micro and Precision Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMF354",
+    "subject_name": "Cost Management of Engineering Projects",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "AU3002",
+    "subject_name": "Batteries and Management System",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "AU3008",
+    "subject_name": "Sensors and Actuators",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OAS353",
+    "subject_name": "Space Vehicles",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OIM352",
+    "subject_name": "Management Science",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OIM353",
+    "subject_name": "Production Planning and Control",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OIE353",
+    "subject_name": "Operations Management",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OSF352",
+    "subject_name": "Industrial Hygiene",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OSF353",
+    "subject_name": "Chemical Process Safety",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OML352",
+    "subject_name": "Electrical, Electronic and Magnetic Materials",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OML353",
+    "subject_name": "Nanomaterials and Applications",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMR352",
+    "subject_name": "Hydraulics and Pneumatics",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMR353",
+    "subject_name": "Sensors",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "ORA352",
+    "subject_name": "Concepts in Mobile Robots",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "MV3501",
+    "subject_name": "Marine Propulsion",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMV351",
+    "subject_name": "Marine Merchant Vessels",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OMV352",
+    "subject_name": "Elements of Marine Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CRA332",
+    "subject_name": "Drone Technologies",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OGI352",
+    "subject_name": "Geographical Information System",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OAI352",
+    "subject_name": "Agriculture Entrepreneurship Development",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEN352",
+    "subject_name": "Biodiversity Conservation",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEE353",
+    "subject_name": "Introduction to Control Systems",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEI354",
+    "subject_name": "Introduction to Industrial Automation Systems",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OCH353",
+    "subject_name": "Energy Technology",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OCH354",
+    "subject_name": "Surface Science",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OFD354",
+    "subject_name": "Fundamentals of Food Engineering",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OFD355",
+    "subject_name": "Food Safety and Quality Regulations",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPY353",
+    "subject_name": "Nutraceuticals",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OTT354",
+    "subject_name": "Basics of Dyeing and Printing",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "FT3201",
+    "subject_name": "Fibre Science",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OTT355",
+    "subject_name": "Garment Manufacturing Technology",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPE353",
+    "subject_name": "Industrial Safety",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPE354",
+    "subject_name": "Unit Operations in Petro Chemical Industries",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPT352",
+    "subject_name": "Plastic Materials for Engineers",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OPT353",
+    "subject_name": "Properties and Testing of Plastics",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OEC353",
+    "subject_name": "VLSI Design",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CBM370",
+    "subject_name": "Wearable Devices",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CBM356",
+    "subject_name": "Medical Informatics",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OCE354",
+    "subject_name": "Basics of Integrated Water Resources Management",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OBT355",
+    "subject_name": "Biotechnology for Waste Management",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OBT356",
+    "subject_name": "Lifestyle Diseases",
+    "credits": 3,
+    "category": "OEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "OBT357",
+    "subject_name": "Biotechnology in Health Care",
+    "credits": 3,
+    "category": "OEC"
+},
+
+# ==============================
+# 2021 Regulation CSE Minor Degree - Vertical 1
+# Fintech and Block Chain
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG331",
+    "subject_name": "Financial Management",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG332",
+    "subject_name": "Fundamentals of Investment",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG333",
+    "subject_name": "Banking, Financial Services and Insurance",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG334",
+    "subject_name": "Introduction to Blockchain and its Applications",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG335",
+    "subject_name": "Fintech Personal Finance and Payments",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG336",
+    "subject_name": "Introduction to Fintech",
+    "credits": 3,
+    "category": "PEC"
+},
+
+# ==============================
+# 2021 Regulation CSE Minor Degree - Vertical 2
+# Entrepreneurship
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG337",
+    "subject_name": "Foundations of Entrepreneurship",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG338",
+    "subject_name": "Team Building & Leadership Management for Business",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG339",
+    "subject_name": "Creativity & Innovation in Entrepreneurship",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG340",
+    "subject_name": "Principles of Marketing Management For Business",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG341",
+    "subject_name": "Human Resource Management for Entrepreneurs",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG342",
+    "subject_name": "Financing New Business Ventures",
+    "credits": 3,
+    "category": "PEC"
+},
+
+# ==============================
+# 2021 Regulation CSE Minor Degree - Vertical 3
+# Public Administration
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG343",
+    "subject_name": "Principles of Public Administration",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG344",
+    "subject_name": "Constitution of India",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG345",
+    "subject_name": "Public Personnel Administration",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG346",
+    "subject_name": "Administrative Theories",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG347",
+    "subject_name": "Indian Administrative System",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG348",
+    "subject_name": "Public Policy Administration",
+    "credits": 3,
+    "category": "PEC"
+},
+# ==============================
+# 2021 Regulation CSE Minor Degree - Vertical 4
+# Business Data Analytics
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG349",
+    "subject_name": "Statistics for Management",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG350",
+    "subject_name": "Datamining For Business Intelligence",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG351",
+    "subject_name": "Human Resource Analytics",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG352",
+    "subject_name": "Marketing and Social Media Web Analytics",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG353",
+    "subject_name": "Operation and Supply Chain Analytics",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CMG354",
+    "subject_name": "Financial Analytics",
+    "credits": 3,
+    "category": "PEC"
+},# ==============================
+# 2021 Regulation CSE Minor Degree - Vertical 5
+# Environment and Sustainability
+# ==============================
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CES331",
+    "subject_name": "Sustainable infrastructure Development",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CES332",
+    "subject_name": "Sustainable Agriculture and Environmental Management",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CES333",
+    "subject_name": "Sustainable Bio Materials",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CES334",
+    "subject_name": "Materials for Energy Sustainability",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CES335",
+    "subject_name": "Green Technology",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CES336",
+    "subject_name": "Environmental Quality Monitoring and Analysis",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CES337",
+    "subject_name": "Integrated Energy Planning for Sustainable Development",
+    "credits": 3,
+    "category": "PEC"
+},
+
+{
+    "department": "CSE",
+    "regulation": 2021,
+    "semester": 0,
+    "subject_code": "CES338",
+    "subject_name": "Energy Efficiency for Sustainable Development",
+    "credits": 3,
+    "category": "PEC"
+},
 ]
 
 with app.app_context():
@@ -1245,4 +2798,4 @@ with app.app_context():
 
     db.session.commit()
 
-print("Database populated successfully.")
+print("Database populated successfully.\nTotal subjects in the database:", len(existing_subjects))

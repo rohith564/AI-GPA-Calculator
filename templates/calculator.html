@@ -37,7 +37,7 @@
                         <select id="regulation" name="regulation" required>
                             <option value="R2021">Select Regulation</option>
                             <option value="R2021">R2021</option>
-                            <option value="R2017">R2017</option>
+                            <option value="R2025">R2025</option>
                         </select>
                     </div>
 
@@ -46,16 +46,15 @@
                         <select id="department" name="department" required>
                             <option value="CSE">Select Department</option>
                             <option value="CSE">CSE</option>
-                            <option value="IT">IT</option>
                             <option value="ECE">ECE</option>
-                            <option value="EEE">EEE</option>
+                            
                         </select>
                     </div>
 
                     <div class="form-group">
                         <label for="semester"><i class="fas fa-layer-group"></i> Semester</label>
                         <select id="semester" name="semester" required>
-                            <option value="5">Select Semester</option>
+                            <option value="6">Select Semester</option>
                             <option value="1">Semester 1</option>
                             <option value="2">Semester 2</option>
                             <option value="3">Semester 3</option>
@@ -99,13 +98,13 @@
             </form>
 
             <!-- ================= PROGRESS ================= -->
-            <div id="progressContainer" class="progress-container" style="display:none;">
+            <div id="progressContainer" class="progress-container">
                 <div class="progress-bar-wrapper">
                     <div id="progressBar" class="progress-bar"></div>
                 </div>
-                <p id="progressText">Processing...</p>
+                <p id="progressText"></p>
             </div>
-
+ 
             <!-- ================= RESULT ================= -->
             <div id="resultContainer" class="result-container" style="display:none;">
                 <h2><i class="fas fa-file-alt"></i> Result</h2>

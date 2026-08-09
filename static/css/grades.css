@@ -6,9 +6,14 @@ table{
     text-align: center;
 }
 
+thead td{
+    background-color: #32d7c9;
+    font-weight:bolder
+}
 td{
     border: solid black 2px;
-    background-color: yellowgreen;
+    background-color: greenyellow;
+    color: black;
 }
 
 body{

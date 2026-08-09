@@ -1,5 +1,5 @@
 
-from flask import Flask,render_template,request
+from flask import Flask,render_template,request, url_for
 
 from google import genai
 import os
@@ -147,7 +147,8 @@ def gpa():
 
     gpa = total_points / total_credits
 
-    return f"<h1> Your GPA is: <i><bold>{gpa:.4f}</bold></i></h1>"
+
+    return f"<h1> Your GPA is: <i><strong>{gpa:.4f}</strong></i></h1> <br> <a href='{url_for('calc')}'>Calculate GPA Again</a>"
 
 
 if __name__=="__main__":

@@ -2779,15 +2779,361 @@ subjects = [
     "credits": 3,
     "category": "PEC"
 },
-]
 
+#========================================
+# 2025 Regulation CSE Subjects 1 to 4 
+#========================================
+
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "MA25C01", "subject_name": "Applied Calculus", "credits": 4, "category": "BS"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "EN25C01", "subject_name": "English Essentials – I", "credits": 2, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "UC25H01", "subject_name": "Heritage of Tamils", "credits": 1, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "PH25C01", "subject_name": "Applied Physics – I", "credits": 3, "category": "BS"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "CY25C01", "subject_name": "Applied Chemistry – I", "credits": 3, "category": "BS"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "CS25C01", "subject_name": "Computer Programming: C", "credits": 3, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "CS25C03", "subject_name": "Essentials of Computing", "credits": 3, "category": "ES (PC)-DIC"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "ME25C04", "subject_name": "Makerspace", "credits": 2, "category": "SD"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "UC25A01", "subject_name": "Life Skills for Engineers – I", "credits": 1, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 1, "subject_code": "UC25A02", "subject_name": "Physical Education – I", "credits": 1, "category": "HUM"},
+
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "MA25C02", "subject_name": "Linear Algebra", "credits": 4, "category": "BS"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "EE25C01", "subject_name": "Basic Electrical and Electronics Engineering", "credits": 3, "category": "ES (G)"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "CS25C06", "subject_name": "Digital Principles and Computer Organization", "credits": 4, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "UC25H02", "subject_name": "Tamils and Technology", "credits": 1, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "PH25C03", "subject_name": "Applied Physics (CSIE) – II", "credits": 3, "category": "BS"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "CS25C07", "subject_name": "Object Oriented Programming", "credits": 5, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "EN25C02", "subject_name": "English Essentials – II", "credits": 2, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "ME25C05", "subject_name": "Re-Engineering for Innovation", "credits": 2, "category": "SD"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "UC25A03", "subject_name": "Life Skills for Engineers – II", "credits": 1, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "UC25A04", "subject_name": "Physical Education – II", "credits": 1, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "UC25F01", "subject_name": "Deutsch – I", "credits": 1, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "UC25F02", "subject_name": "Japanese – I", "credits": 1, "category": "HUM"},
+    {"department": "CSE", "regulation": 2025, "semester": 2, "subject_code": "UC25F03", "subject_name": "Korean – I", "credits": 1, "category": "HUM"},
+
+    {"department": "CSE", "regulation": 2025, "semester": 3, "subject_code": "MA25C08", "subject_name": "Discrete Mathematics", "credits": 4, "category": "BS"},
+    {"department": "CSE", "regulation": 2025, "semester": 3, "subject_code": "CS25C11", "subject_name": "Operating Systems", "credits": 4, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 3, "subject_code": "CS25C10", "subject_name": "Object Oriented Software Engineering", "credits": 3, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 3, "subject_code": "CS25C08", "subject_name": "Data Structures", "credits": 5, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 3, "subject_code": "CS25C09", "subject_name": "Java Programming", "credits": 5, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 3, "subject_code": "EN25C03", "subject_name": "English Communication Skills Laboratory – I", "credits": 1, "category": "HUM"},
+
+    {"department": "CSE", "regulation": 2025, "semester": 4, "subject_code": "MA25C07", "subject_name": "Probability and Statistics", "credits": 4, "category": "BS"},
+    {"department": "CSE", "regulation": 2025, "semester": 4, "subject_code": "CS25C12", "subject_name": "Algorithms", "credits": 3, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 4, "subject_code": "CS25C14", "subject_name": "Theory of Computation", "credits": 4, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 4, "subject_code": "CS25C15", "subject_name": "Standards in Computer Science", "credits": 1, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 4, "subject_code": "AD25201", "subject_name": "Python for Data Science", "credits": 4, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 4, "subject_code": "CS25C13", "subject_name": "Database Management Systems", "credits": 5, "category": "ES (PC)"},
+    {"department": "CSE", "regulation": 2025, "semester": 4, "subject_code": "EN25C04", "subject_name": "English Communication Skills Laboratory – II", "credits": 1, "category": "HUM"},
+
+#========================================
+# 2021 Regulation ECE Subjects
+#========================================
+
+
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "IP3151", "subject_name": "Induction Programme", "credits": 0, "category": "-"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "HS3152", "subject_name": "Professional English - I", "credits": 3, "category": "HSMC"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "MA3151", "subject_name": "Matrices and Calculus", "credits": 4, "category": "BSC"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "PH3151", "subject_name": "Engineering Physics", "credits": 3, "category": "BSC"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "CY3151", "subject_name": "Engineering Chemistry", "credits": 3, "category": "BSC"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "GE3151", "subject_name": "Problem Solving and Python Programming", "credits": 3, "category": "ESC"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "GE3152", "subject_name": "தமிழர் மரபு / Heritage of Tamils", "credits": 1, "category": "HSMC"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "GE3171", "subject_name": "Problem Solving and Python Programming Laboratory", "credits": 2, "category": "ESC"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "BS3171", "subject_name": "Physics and Chemistry Laboratory", "credits": 2, "category": "BSC"},
+  {"department": "ECE", "regulation": 2021, "semester": 1, "subject_code": "GE3172", "subject_name": "English Laboratory $", "credits": 1, "category": "EEC"},
+
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "HS3252", "subject_name": "Professional English - II", "credits": 2, "category": "HSMC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "MA3251", "subject_name": "Statistics and Numerical Methods", "credits": 4, "category": "BSC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "PH3254", "subject_name": "Physics for Electronics Engineering", "credits": 3, "category": "BSC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "BE3254", "subject_name": "Electrical and Instrumentation Engineering", "credits": 3, "category": "ESC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "GE3251", "subject_name": "Engineering Graphics", "credits": 4, "category": "ESC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "EC3251", "subject_name": "Circuit Analysis", "credits": 4, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "GE3252", "subject_name": "தமிழரும் தொழில்நுட்பமும் / Tamils and Technology", "credits": 1, "category": "HSMC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "GE3271", "subject_name": "Engineering Practices Laboratory", "credits": 2, "category": "ESC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "EC3271", "subject_name": "Circuits Analysis Laboratory", "credits": 1, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 2, "subject_code": "GE3272", "subject_name": "Communication Laboratory / Foreign Language $", "credits": 2, "category": "EEC"},
+
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "MA3355", "subject_name": "Random Processes and Linear Algebra", "credits": 4, "category": "BSC"},
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "CS3353", "subject_name": "C Programming and Data Structures", "credits": 3, "category": "ESC"},
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "EC3354", "subject_name": "Signals and Systems", "credits": 4, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "EC3353", "subject_name": "Electronic Devices and Circuits", "credits": 3, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "EC3351", "subject_name": "Control Systems", "credits": 3, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "EC3352", "subject_name": "Digital Systems Design", "credits": 4, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "EC3361", "subject_name": "Electronic Devices and Circuits Laboratory", "credits": 1.5, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "CS3362", "subject_name": "C Programming and Data Structures Laboratory", "credits": 1.5, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 3, "subject_code": "GE3361", "subject_name": "Professional Development$", "credits": 1, "category": "EEC"},
+
+  {"department": "ECE", "regulation": 2021, "semester": 4, "subject_code": "EC3452", "subject_name": "Electromagnetic Fields", "credits": 3, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 4, "subject_code": "EC3401", "subject_name": "Networks and Security", "credits": 4, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 4, "subject_code": "EC3451", "subject_name": "Linear Integrated Circuits", "credits": 3, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 4, "subject_code": "EC3492", "subject_name": "Digital Signal Processing", "credits": 4, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 4, "subject_code": "EC3491", "subject_name": "Communication Systems", "credits": 3, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 4, "subject_code": "GE3451", "subject_name": "Environmental Sciences and Sustainability", "credits": 2, "category": "BSC"},
+  {"department": "ECE", "regulation": 2021, "semester": 4, "subject_code": "EC3461", "subject_name": "Communication Systems Laboratory", "credits": 1.5, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 4, "subject_code": "EC3462", "subject_name": "Linear Integrated Circuits Laboratory", "credits": 1.5, "category": "PCC"},
+
+  {"department": "ECE", "regulation": 2021, "semester": 5, "subject_code": "EC3501", "subject_name": "Wireless Communication", "credits": 4, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 5, "subject_code": "EC3552", "subject_name": "VLSI and Chip Design", "credits": 3, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 5, "subject_code": "EC3551", "subject_name": "Transmission lines and RF Systems", "credits": 3, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 5, "subject_code": "EC3561", "subject_name": "VLSI Laboratory", "credits": 2, "category": "PCC"},
+
+  {"department": "ECE", "regulation": 2021, "semester": 6, "subject_code": "ET3491", "subject_name": "Embedded Systems and IOT Design", "credits": 4, "category": "PCC"},
+  {"department": "ECE", "regulation": 2021, "semester": 6, "subject_code": "CS3491", "subject_name": "Artificial Intelligence and Machine Learning", "credits": 4, "category": "ESC"},
+  
+  {"department": "ECE", "regulation": 2021, "semester": 7, "subject_code": "GE3791", "subject_name": "Human Values and Ethics", "credits": 2, "category": "HSMC"},
+  {"department": "ECE", "regulation": 2021, "semester": 7, "subject_code": "EC3711", "subject_name": "Summer internship", "credits": 2, "category": "EEC"},
+
+  {"department": "ECE", "regulation": 2021,"semester": 8, "subject_code": "EC3811", "subject_name": "Project Work / Internship", "credits": 10, "category": "EEC"},
+
+
+  
+  #"mandatory_courses_I": [
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3081", "subject_name": "Introduction to Women and Gender Studies", "credits": 0, "category": "MC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3082", "subject_name": "Elements of Literature", "credits": 0, "category": "MC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3083", "subject_name": "Film Appreciation", "credits": 0, "category": "MC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3084", "subject_name": "Disaster Risk Reduction and Management", "credits": 0, "category": "MC"},
+   
+  #"mandatory_courses_II": [
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3085", "subject_name": "Well Being with Traditional Practices - Yoga, Ayurveda and Siddha", "credits": 0, "category": "MC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3086", "subject_name": "History of Science and Technology in India", "credits": 0, "category": "MC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3087", "subject_name": "Political and Economic Thought for a Humane Society", "credits": 0, "category": "MC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3088", "subject_name": "State, Nation Building and Politics in India", "credits": 0, "category": "MC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MX3089", "subject_name": "Industrial Safety", "credits": 0, "category": "MC"},
+   
+  #"elective_management_courses": [
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "GE3751", "subject_name": "Principles of Management", "credits": 3, "category": "HSMC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "GE3752", "subject_name": "Total Quality Management", "credits": 3, "category": "HSMC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "GE3753", "subject_name": "Engineering Economics and Financial Accounting", "credits": 3, "category": "HSMC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "GE3754", "subject_name": "Human Resource Management", "credits": 3, "category": "HSMC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "GE3755", "subject_name": "Knowledge Management", "credits": 3, "category": "HSMC"},
+    {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "GE3792", "subject_name": "Industrial Management", "credits": 3, "category": "HSMC"},
+   
+  #"professional_elective_verticals": {
+    #"Vertical I: Semiconductor Chip Design and Testing": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC363", "subject_name": "Wide Bandgap Devices", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC361", "subject_name": "Validation and Testing Technology", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC370", "subject_name": "Low Power IC Design", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC362", "subject_name": "VLSI Testing and Design For Testability", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC342", "subject_name": "Mixed Signal IC Design Testing", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC334", "subject_name": "Analog IC Design", "credits": 3, "category": "PEC"},
+     
+    #"Vertical II: Signal Processing": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC332", "subject_name": "Advanced Digital Signal Processing", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC366", "subject_name": "Image Processing", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC356", "subject_name": "Speech Processing", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC355", "subject_name": "Software Defined Radio", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC337", "subject_name": "DSP Architecture and Programming", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CCS338", "subject_name": "Computer Vision", "credits": 3, "category": "PEC"},
+     
+    #"Vertical III: RF Technologies": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC350", "subject_name": "RF Transceivers", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC353", "subject_name": "Signal Integrity", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC335", "subject_name": "Antenna Design", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC341", "subject_name": "MICs and RF System Design", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC338", "subject_name": "EMI/EMC Pre Compliance Testing", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC349", "subject_name": "RFID System Design and Testing", "credits": 3, "category": "PEC"},
+     
+    #"Vertical IV: Bio Medical Technologies": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM370", "subject_name": "Wearable Devices", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM352", "subject_name": "Human Assist Devices", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM368", "subject_name": "Therapeutic Equipment", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM355", "subject_name": "Medical Imaging Systems", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM342", "subject_name": "Brain Computer Interface and Applications", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM341", "subject_name": "Body Area Networks", "credits": 3, "category": "PEC"},
+     
+    #"Vertical V: Underwater Technologies": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC359", "subject_name": "Underwater Instrumentation System", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC358", "subject_name": "Underwater Imaging Systems and Image Processing", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC357", "subject_name": "Underwater Communication", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC344", "subject_name": "Ocean Observation Systems", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC360", "subject_name": "Underwater Navigation Systems", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC343", "subject_name": "Ocean Acoustics", "credits": 3, "category": "PEC"},
+     
+    #"Vertical VI: Sensor Technologies and IoT": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC369", "subject_name": "IoT Processors", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC368", "subject_name": "IoT Based Systems Design", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC365", "subject_name": "Wireless Sensor Network Design", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC367", "subject_name": "Industrial IoT and Industry 4.0", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC340", "subject_name": "MEMS Design", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC339", "subject_name": "Fundamentals of Nanoelectronics", "credits": 3, "category": "PEC"},
+     
+    #"Vertical VII: Space Technologies": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC347", "subject_name": "Radar Technologies", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC336", "subject_name": "Avionics Systems", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC346", "subject_name": "Positioning and Navigation Systems", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC352", "subject_name": "Satellite Communication", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC348", "subject_name": "Remote Sensing", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC351", "subject_name": "Rocketry and Space Mechanics", "credits": 3, "category": "PEC"},
+     
+    #"Vertical VIII: High Speed Communications": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC345", "subject_name": "Optical Communication & Networks", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC364", "subject_name": "Wireless Broad Band Networks", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC331", "subject_name": "4G/5G Communication Networks", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC354", "subject_name": "Software Defined Networks", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC371", "subject_name": "Massive MIMO Networks", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CEC333", "subject_name": "Advanced Wireless Communication Techniques", "credits": 3, "category": "PEC"},
+  
+  
+    #"Open Electives I": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OAS351", "subject_name": "Space Science", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OIE351", "subject_name": "Introduction to Industrial Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OBT351", "subject_name": "Food, Nutrition and Health", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OCE351", "subject_name": "Environmental and Social Impact Assessment", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEE351", "subject_name": "Renewable Energy System", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEI351", "subject_name": "Introduction to Industrial Instrumentation and Control", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMA351", "subject_name": "Graph Theory", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CCS355", "subject_name": "Neural Networks and Deep Learning", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CCW332", "subject_name": "Digital Marketing", "credits": 3, "category": "OEC"},
+     
+    #"Open Electives II": [
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OIE352", "subject_name": "Resource Management Techniques", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMG351", "subject_name": "Fintech Regulation", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OFD351", "subject_name": "Holistic Nutrition", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "AI3021", "subject_name": "IT in Agricultural System", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEI352", "subject_name": "Introduction to Control Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPY351", "subject_name": "Pharmaceutical Nanotechnology", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OAE351", "subject_name": "Aviation Management", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CCS342", "subject_name": "DevOps", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CCS361", "subject_name": "Robotic Process Automation", "credits": 3, "category": "OEC"},
+
+    #"Open Electives III"
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OHS351", "subject_name": "English for Competitive Examinations", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMG352", "subject_name": "NGOs and Sustainable Development", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMG353", "subject_name": "Democracy and Good Governance", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CME365", "subject_name": "Renewable Energy Technologies", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OME354", "subject_name": "Applied Design Thinking", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MF3003", "subject_name": "Reverse Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPR351", "subject_name": "Sustainable Manufacturing", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "AU3791", "subject_name": "Electric and Hybrid Vehicles", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OAS352", "subject_name": "Space Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OIM351", "subject_name": "Industrial Management", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OIE354", "subject_name": "Quality Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OSF351", "subject_name": "Fire Safety Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OML351", "subject_name": "Introduction to Non-Destructive Testing", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMR351", "subject_name": "Mechatronics", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "ORA351", "subject_name": "Foundation of Robotics", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OAE352", "subject_name": "Fundamentals of Aeronautical Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OGI351", "subject_name": "Remote Sensing Concepts", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OAI351", "subject_name": "Urban Agriculture", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEN351", "subject_name": "Drinking Water Supply and Treatment", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEE352", "subject_name": "Electric Vehicle Technology", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEI353", "subject_name": "Introduction to PLC Programming", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OCH351", "subject_name": "Nano Technology", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OCH352", "subject_name": "Functional Materials", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OFD352", "subject_name": "Traditional Indian Foods", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OFD353", "subject_name": "Introduction to Food Processing", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPY352", "subject_name": "IPR for Pharma Industry", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OTT351", "subject_name": "Basics of Textile Finishing", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OTT352", "subject_name": "Industrial Engineering for Garment Industry", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OTT353", "subject_name": "Basics of Textile Manufacture", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPE351", "subject_name": "Introduction to Petroleum Refining and Petrochemicals", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CPE334", "subject_name": "Energy Conservation and Management", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPT351", "subject_name": "Basics of Plastics Processing", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM348", "subject_name": "Foundation Skills in Integrated Product Development", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM333", "subject_name": "Assistive Technology", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMA352", "subject_name": "Operations Research", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMA353", "subject_name": "Algebra and Number Theory", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMA354", "subject_name": "Linear Algebra", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OCE353", "subject_name": "Lean Concepts, Tools and Practices", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OBT352", "subject_name": "Basics of Microbial Technology", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OBT353", "subject_name": "Basics of Biomolecules", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OBT354", "subject_name": "Fundamentals of Cell and Molecular Biology", "credits": 3, "category": "OEC"},
+    
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OHS352", "subject_name": "Project Report Writing", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMA355", "subject_name": "Advanced Numerical Methods", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMA356", "subject_name": "Random Processes", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMA357", "subject_name": "Queuing and Reliability Modelling", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMG354", "subject_name": "Production and Operations Management for Entrepreneurs", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMG355", "subject_name": "Multivariate Data Analysis", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OME352", "subject_name": "Additive Manufacturing", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CME343", "subject_name": "New Product Development", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OME355", "subject_name": "Industrial Design & Rapid Prototyping Techniques", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MF3010", "subject_name": "Micro and Precision Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMF354", "subject_name": "Cost Management of Engineering Projects", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "AU3002", "subject_name": "Batteries and Management system", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "AU3008", "subject_name": "Sensors and Actuators", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OAS353", "subject_name": "Space Vehicles", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OIM352", "subject_name": "Management Science", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OIM353", "subject_name": "Production Planning and Control", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OIE353", "subject_name": "Operations Management", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OSF352", "subject_name": "Industrial Hygiene", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OSF353", "subject_name": "Chemical Process Safety", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OML352", "subject_name": "Electrical, Electronic and Magnetic materials", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OML353", "subject_name": "Nanomaterials and applications", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMR352", "subject_name": "Hydraulics and Pneumatics", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMR353", "subject_name": "Sensors", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "ORA352", "subject_name": "Concepts in Mobile Robots", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "MV3501", "subject_name": "Marine Propulsion", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMV351", "subject_name": "Marine Merchant Vessels", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OMV352", "subject_name": "Elements of Marine Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CRA332", "subject_name": "Drone Technologies", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OGI352", "subject_name": "Geographical Information System", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OAI352", "subject_name": "Agriculture Entrepreneurship Development", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEN352", "subject_name": "Biodiversity Conservation", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEE353", "subject_name": "Introduction to control systems", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OEI354", "subject_name": "Introduction to Industrial Automation Systems", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OCH353", "subject_name": "Energy Technology", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OCH354", "subject_name": "Surface Science", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OFD354", "subject_name": "Fundamentals of Food Engineering", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OFD355", "subject_name": "Food Safety and Quality Regulations", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPY353", "subject_name": "Nutraceuticals", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OTT354", "subject_name": "Basics of Dyeing and Printing", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "FT3201", "subject_name": "Fibre Science", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OTT355", "subject_name": "Garment Manufacturing Technology", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPE353", "subject_name": "Industrial safety", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPE354", "subject_name": "Unit Operations in Petro Chemical Industries", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPT352", "subject_name": "Plastic Materials for Engineers", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OPT353", "subject_name": "Properties and Testing of Plastics", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM370", "subject_name": "Wearable Devices", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CBM356", "subject_name": "Medical Informatics", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OCE354", "subject_name": "Basics of Integrated Water Resources Management", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OBT355", "subject_name": "Biotechnology for Waste Management", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OBT356", "subject_name": "Lifestyle Diseases", "credits": 3, "category": "OEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "OBT357", "subject_name": "Biotechnology in Health Care", "credits": 3, "category": "OEC"},
+  
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG331", "subject_name": "Financial Management", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG332", "subject_name": "Fundamentals of Investment Banking, Financial Services and Insurance", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG333", "subject_name": "Fundamentals of Investment Banking, Financial Services and Insurance", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG334", "subject_name": "Introduction to Blockchain and its Applications", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG335", "subject_name": "Fintech Personal Finance and Payments", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG336", "subject_name": "Introduction to Fintech", "credits": 3, "category": "PEC"},
+
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG337", "subject_name": "Foundations of Entrepreneurship", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG338", "subject_name": "Team Building & Leadership Management for Business", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG339", "subject_name": "Creativity & Innovation in Entrepreneurship", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG340", "subject_name": "Principles of Marketing Management For Business", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG341", "subject_name": "Human Resource Management for Entrepreneurs", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG342", "subject_name": "Financing New Business Ventures", "credits": 3, "category": "PEC"},
+    
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG343", "subject_name": "Principles of Public Administration", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG344", "subject_name": "Constitution of India", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG345", "subject_name": "Public Personnel Administration", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG346", "subject_name": "Administrative Theories", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG347", "subject_name": "Indian Administrative System", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG348", "subject_name": "Public Policy Administration", "credits": 3, "category": "PEC"},
+
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG349", "subject_name": "Statistics for Management", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG350", "subject_name": "Datamining for Business Intelligence", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG351", "subject_name": "Human Resource Analytics", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG352", "subject_name": "Marketing and Social Media Web Analytics", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG353", "subject_name": "Operation and Supply Chain Analytics", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CMG354", "subject_name": "Financial Analytics", "credits": 3, "category": "PEC"},
+  
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CES331", "subject_name": "Sustainable infrastructure Development", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CES332", "subject_name": "Sustainable Agriculture and Environmental Management", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CES333", "subject_name": "Sustainable Bio Materials", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CES334", "subject_name": "Materials for Energy Sustainability", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CES335", "subject_name": "Green Technology", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CES336", "subject_name": "Environmental Quality Monitoring and Analysis", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CES337", "subject_name": "Integrated Energy Planning for Sustainable Development", "credits": 3, "category": "PEC"},
+      {"department": "ECE", "regulation": 2021, "semester": 0, "subject_code": "CES338", "subject_name": "Energy Efficiency for Sustainable Development", "credits": 3, "category": "PEC"},
+  
+]
 with app.app_context():
 
     existing_subjects = {
         subject.subject_code
         for subject in Subject.query.filter_by(
             department="CSE",
-            regulation=2021
+            regulation=2025
         ).all()
     }
 
@@ -2799,3 +3145,5 @@ with app.app_context():
     db.session.commit()
 
 print("Database populated successfully.\nTotal subjects in the database:", len(existing_subjects))
+
+

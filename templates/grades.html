@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/grades.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
     <title>Grades</title>
 </head>
@@ -31,33 +35,7 @@
         <br><br>
 
 
-        <table>
-            <thead>
-                <b>
-                    <td>S.no</td>
-                    <td>Subject Code</td>
-                    <td>Grades</td>
-                    <td>Credits</td>
-                </b>
-            </thead>
-            <tbody>
-                {% for subject in marks %}
-                <tr>
-                    <td>{{ loop.index }} </td>
-                    <td>{{ subject }} </td>
-                    <td>{{ marks[subject] }} </td>
-                    <td>{{ credits[subject] }} </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-
-
-        <a href="{{ url_for('gpa',marks=marks|tojson, credits=credits|tojson) }}">
-            <button type="submit">View GPA</button>
-        </a>
-
-    </center>
+        
 </body>
 
 </html>

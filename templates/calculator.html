@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculate GPA - AutoGPA</title>
     <link rel="stylesheet" href=" {{ url_for('static',filename='css/style.css') }}">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
+
 <body>
 
     <!-- ================= HEADER ================= -->
@@ -22,15 +26,16 @@
         <div class="menu-toggle" id="menuToggle">
             <i class="fas fa-bars"></i>
         </div>
-</header>
+    </header>
 
     <!-- ================= CALCULATOR SECTION ================= -->
     <section class="calculator-section">
         <div class="container">
             <h1><i class="fas fa-calculator"></i> Anna University GPA Calculator</h1>
-            <p class="subtitle">Select your Regulation, Department, Semester and upload your marksheet to calculate GPA.</p>
+            <p class="subtitle">Select your Regulation, Department, Semester and upload your marksheet to calculate GPA.
+            </p>
 
-            <form id="gpaForm" action="/text_extraction" method="post" enctype="multipart/form-data">
+            <form action="{{ url_for('calc') }}#results-section" method="POST" enctype="multipart/form-data">
                 <div class="form-row">
                     <div class="form-group">
                         <label for="regulation"><i class="fas fa-book"></i> Regulation</label>
@@ -47,7 +52,7 @@
                             <option value="CSE">Select Department</option>
                             <option value="CSE">CSE</option>
                             <option value="ECE">ECE</option>
-                            
+
                         </select>
                     </div>
 
@@ -88,7 +93,7 @@
 
                 <div class="form-row">
                     <div class="form-group">
-                        
+
                         <button type="submit" id="calculateBtn" class="btn-primary btn-full">
                             <i class="fas fa-robot"></i> <span id="btnText">Extract & Calculate GPA</span>
                         </button>
@@ -104,49 +109,75 @@
                 </div>
                 <p id="progressText"></p>
             </div>
- 
-            <!-- ================= RESULT ================= -->
-            <div id="resultContainer" class="result-container" style="display:none;">
-                <h2><i class="fas fa-file-alt"></i> Result</h2>
-                <div class="result-actions">
-                    <button id="downloadPdfBtn" class="btn-secondary">
-                        <i class="fas fa-file-pdf"></i> Download as PDF
-                    </button>
-                    <button id="resetBtn" class="btn-outline">
-                        <i class="fas fa-redo"></i> Calculate Again
-                    </button>
-                </div>
+
+            <!-- ================= RESULT SECTION ================= -->
+            {% if result %}
+            <div id="results-section" class="result-container">
+                <h2 style="text-align: center; color: #127c6b;">Verify Your Grades</h2>
+                <p style="text-align: center; color: #555;">Please check your extracted marks below before calculating.
+                </p>
+
+                <!-- The Grades Table -->
                 <div class="table-wrapper">
                     <table id="resultTable">
                         <thead>
                             <tr>
-                                <th>#</th>
+                                <th>S.no</th>
                                 <th>Subject Code</th>
-                                <th>Subject Name</th>
                                 <th>Grade</th>
                                 <th>Credit</th>
-                                <th>Grade Point</th>
-                                <th>Total</th>
                             </tr>
                         </thead>
-                        <tbody id="resultBody"></tbody>
+                        <tbody>
+                            {% for subject in result.subjects %}
+                            <tr>
+                                <td>{{ loop.index }}</td>
+                                <td>{{ subject.code }}</td>
+                                <td>{{ subject.grade }}</td>
+                                <td>{{ subject.credits }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
                     </table>
                 </div>
-                <div id="gpaSummary" class="gpa-summary">
-                    <div class="gpa-item">
-                        <span class="gpa-label">Total Credits</span>
-                        <span id="totalCredits" class="gpa-value">0</span>
-                    </div>
-                    <div class="gpa-item">
-                        <span class="gpa-label">Total Grade Points</span>
-                        <span id="totalPoints" class="gpa-value">0</span>
-                    </div>
-                    <div class="gpa-item gpa-main">
-                        <span class="gpa-label">GPA</span>
-                        <span id="gpaValue" class="gpa-value gpa-highlight">0.00</span>
+
+                <!-- The Button to Trigger the Pop-up -->
+                <div style="text-align: center; margin-top: 30px; margin-bottom: 50px;">
+                    <button type="button" id="openGpaBtn" class="btn-primary"
+                        style="font-size: 18px; padding: 15px 30px;">
+                        <i class="fas fa-calculator"></i> View Final GPA
+                    </button>
+                </div>
+
+                <!-- ================= THE GPA POP-UP (MODAL) ================= -->
+                <div id="gpaModal" class="modal-overlay">
+                    <div class="modal-content">
+                        <span id="closeModalBtn" class="close-btn">&times;</span>
+                        <div class="gpa-card" style="box-shadow: none; margin-bottom: 0;">
+                            <h2 style="color: black; font-family: 'Times New Roman', Times, serif;">
+                                <i>Congratulations 🎉</i><br>
+                                Your GPA is
+                            </h2>
+                            <div class="gpa-score">
+                                <h1
+                                    style="color: black; font-family: 'Times New Roman', Times, serif; font-size: 3.5em;">
+                                    {{ result.gpa }}
+                                </h1>
+                            </div>
+
+                        
+                            <a href="{{ url_for('calc') }}" class="btn-outline"
+                                style="margin-top: 30px; width:100%; text-align:center;">
+                                <i class="fas fa-redo"></i> <center> Calculate GPA Again </center>
+                            </a>
+
+                        </div>
                     </div>
                 </div>
             </div>
+
+            {% endif %}
+
 
             <!-- ================= ERROR ================= -->
             <div id="errorContainer" class="error-container" style="display:none;">
@@ -159,6 +190,8 @@
     <!-- ================= FOOTER ================= -->
     {% include "footer.html" %}
 
+    <script src="{{ url_for('static', filename='js/index.js') }}"></script>
 
 </body>
+
 </html>

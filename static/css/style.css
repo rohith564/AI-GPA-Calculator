@@ -72,6 +72,7 @@ header {
 nav {
     display: flex;
     gap: 8px;
+    padding: 0 10px;
 }
 
 nav a {
@@ -993,4 +994,99 @@ footer p {
 
 @keyframes spin {
     to { transform: rotate(360deg); }
+}
+
+
+/* ================= POP-UP (MODAL) STYLES ================= */
+
+/* The dark background behind the pop-up */
+.modal-overlay {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Black with 60% opacity */
+    align-items: center; /* Centers vertically */
+    justify-content: center; /* Centers horizontally */
+}
+
+/* The actual white box */
+.modal-content {
+    background-color: #fefefe;
+    padding: 30px;
+    border-radius: 12px;
+    width: 400px;
+    max-width: 90%;
+    position: relative;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    animation: slideDown 0.3s ease-out;
+}
+
+/* The Close Button (X) */
+.close-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    color: #aaa;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.2s;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: #333;
+    text-decoration: none;
+}
+
+/* A smooth sliding animation when the pop-up opens */
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Table styling */
+table {
+    width: 80%;
+    margin: 40px auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08); /* Soft shadow for a "card" effect */
+    border-radius: 8px;
+    overflow: hidden; /* Keeps the corners perfectly rounded */
+}
+
+th {
+    background-color: #127c6b; /* Matches your AutoGPA navbar theme */
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+td {
+    padding: 14px 16px;
+    text-align: center;
+    border-bottom: 1px solid #eaeaea;
+    color: #333;
+}
+
+/* Alternating row colors for readability */
+tr:nth-child(even) {
+    background-color: #f9fbfb;
+}
+
+/* Subtle highlight when the user hovers over a row */
+tr:hover {
+    background-color: #e2f1ef; 
 }

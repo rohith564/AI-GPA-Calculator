@@ -12,8 +12,7 @@
     
 </head>
 <body>
-
-    <!-- ================= HEADER ================= -->
+ <!-- =============== HEADER ================= -->
     <header>
         <div class="logo">
             <i class="fas fa-graduation-cap"></i> AutoGPA
@@ -21,9 +20,9 @@
         <nav>
             <a href="{{ url_for('home') }}" class="active">Home</a>
             <a href="{{ url_for('calc') }}">Calculator</a>
-            <a href="#features">Features</a>
-            <a href="#how-it-works">How It Works</a>
-            <a href="#contact">Contact</a>
+            <a href="{{ url_for('home') }}#features">Features</a>
+            <a href="{{ url_for('home') }}#how-it-works">How It Works</a>
+            <a href="{{ url_for('home') }}#contact">Contact</a>
         </nav>
         <div class="menu-toggle" id="menuToggle">
             <i class="fas fa-bars"></i>

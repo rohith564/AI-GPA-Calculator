@@ -99,9 +99,9 @@ def calc():
                 "MX3085": "O",
                 "SB8015": "O"
             }"""            
-        # 3. Setup variables for GPA Calculation
+        # 3. Setup variables for FGPA Calculation
         grade_points = {
-            "O": 10, "A+": 9, "A": 8, "B+": 7, "B": 6, "C": 5, "U": 0, "AB": 0
+            "S": 10,"O": 10, "A+": 9, "A": 8, "B+": 7, "B": 6, "C": 5, "U": 0, "AB": 0
         }
         
         total_credits = 0
